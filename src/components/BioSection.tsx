@@ -1,5 +1,4 @@
 import { Card } from "@/components/ui/card";
-import artistPhoto from "../assets/artist-photo.jpg";
 
 const BioSection = () => {
   return (
@@ -10,7 +9,7 @@ const BioSection = () => {
           <div className="order-2 md:order-1">
             <div className="relative">
               <img 
-                src={artistPhoto} 
+                src="/lovable-uploads/9065f9ca-b0b1-49c2-a80b-a3b0a8778a8f.png" 
                 alt="Scighera artist photo" 
                 className="w-full h-[400px] object-cover rounded-2xl shadow-card"
               />
@@ -21,32 +20,26 @@ const BioSection = () => {
           {/* Bio content */}
           <div className="order-1 md:order-2 space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground animate-fade-in">
-              Chi è Scighera
+              Bio
             </h2>
             
             <Card className="bg-card/60 backdrop-blur-sm border-border/50 shadow-soft p-6">
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  Scighera nasce dalle strade nebbiose di Milano, dove la malinconia urbana 
-                  si fonde con melodie indie-pop che raccontano storie di vita quotidiana.
+                  Ho iniziato a suonare quando avevo 13 anni, in casa si è sempre respirato musica.
+                  Il rock e il pop, Da Lou Reed a Lucio Battisti, mi hanno sempre appassionato per la loro capacità di dire cose complesse in modo semplice e alla portata di tutti.
                 </p>
                 <p>
-                  Il nome stesso evoca quella nebbia che avvolge la città lombarda, 
-                  creando un'atmosfera unica che caratterizza ogni brano del progetto.
+                  Scighera racconta un mondo che appare confuso, sfocato e immerso nella nebbia, un mondo ormai troppo spesso dimenticato, dove il senso critico e il buon senso riposano sopiti in attesa di essere svegliati.
                 </p>
                 <p>
-                  Tra synth analogici e chitarre sognanti, Scighera dipinge paesaggi sonori 
-                  che parlano di nostalgia, speranza e quella particolare bellezza che si 
-                  trova nei momenti più semplici.
+                  Nella Scighera ci si perde, come negli articoli di giornale, come su un campo di battaglia, come, forse, nella nostra quotidianità, fatta di opinioni, tecnologia, bolle e fanatismo.
+                </p>
+                <p>
+                  Scighera vuole essere uno specchio nel quale potersi ritrovare, attraverso il quale ritrovare quel comune denominatore che ci fa inorridire, rasserenare, pensare, amare e sognare come esseri umani e come individui.
                 </p>
               </div>
             </Card>
-            
-            <div className="text-center">
-              <p className="text-sm text-muted-foreground italic">
-                "La musica è come la nebbia: arriva quando meno te l'aspetti e ti avvolge completamente"
-              </p>
-            </div>
           </div>
         </div>
       </div>
