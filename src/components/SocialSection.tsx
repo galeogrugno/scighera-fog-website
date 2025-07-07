@@ -20,7 +20,7 @@ const SocialSection = () => {
     },
     {
       platform: "Email",
-      handle: "scighera@music.com",
+      handle: "scigheraofficial@gmail.com",
       icon: Mail,
       url: "#",
       color: "hover:text-blue-500"
