@@ -18,8 +18,8 @@ const SpotifySection = () => {
                 <Play className="h-6 w-6 text-primary" />
               </div>
               <div className="flex-1 text-left">
-                <h3 className="font-semibold text-foreground">Nuovo Album</h3>
-                <p className="text-muted-foreground text-sm">Scighera • 2024</p>
+                <h3 className="font-semibold text-foreground">Scighera</h3>
+                <p className="text-muted-foreground text-sm">Scighera • 2025</p>
               </div>
             </div>
             
