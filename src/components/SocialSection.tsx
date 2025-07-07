@@ -6,7 +6,7 @@ const SocialSection = () => {
   const socialLinks = [
     {
       platform: "Instagram",
-      handle: "@scighera_music",
+      handle: "@scighera_official",
       icon: Instagram,
       url: "#",
       color: "hover:text-pink-500"
